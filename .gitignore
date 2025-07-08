@@ -1,38 +1,22 @@
-# Prerequisites
-**/*.d
+# --- Build outputs ---
+*.out
+*.run
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.a
+*.lib
+output
 
-# Compiled Object files
-**/*.slo
-**/*.lo
-**/*.o
+# --- Build system directories ---
+/build/
+/bin/
+/dist/
 
-**/*.obj
-
-# Precompiled Headers
-**/*.gch
-**/*.pch
-
-# Linker files
-**/*.ilk
-
-# Debugger Files
-**/*.pdb
-
-# Compiled Dynamic libraries
-**/*.so
-**/*.dylib
-**/*.dll
-
-# Compiled Static libraries
-**/*.lai
-**/*.la
-**/*.a
-**/*.lib
-
-# Executables
-**/*.exe
-**/*.out
-**/*.app
-
-# debug information files
-**/*.dwo
+# --- OS / System Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
